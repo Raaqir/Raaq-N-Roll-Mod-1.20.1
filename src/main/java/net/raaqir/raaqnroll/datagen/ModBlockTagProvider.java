@@ -19,6 +19,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS)
                 .add(ModBlocks.SHTAIN_ORE)
+                .add(ModBlocks.RAAQ_ORE)
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)
@@ -30,6 +31,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.SHTAIN_ORE,
+                        ModBlocks.RAAQ_ORE,
                         ModBlocks.SHTAIN_BLOCK,
                         ModBlocks.RAW_SHTAIN_BLOCK,
                         ModBlocks.DEEPSLATE_SHTAIN_ORE,
@@ -46,8 +48,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_SHTAIN_ORE,
+                        ModBlocks.RAAQ_BLOCK,
                         ModBlocks.END_STONE_SHTAIN_ORE,
-                        ModBlocks.NETHER_SHTAIN_ORE);
+                        ModBlocks.RAAQ_ORE,
+                        ModBlocks.NETHER_SHTAIN_ORE,
+                        ModBlocks.DEEPSLATE_RAAQ_ORE,
+                        ModBlocks.END_STONE_RAAQ_ORE,
+                        ModBlocks.NETHER_RAAQ_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SHTAIN_ORE,
@@ -60,6 +67,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SHTAIN_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.SHTAIN_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RAAQ_WALL);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RAAQ_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.RAAQ_FENCE_GATE);
 
     }
 }

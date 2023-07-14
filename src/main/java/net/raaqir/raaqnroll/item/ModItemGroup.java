@@ -17,20 +17,28 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.SHTAIN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SHTAIN);
                         entries.add(ModItems.RAW_SHTAIN);
+                        entries.add(ModItems.RAAQ);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.PEAT_BRICK);
 
                         entries.add(ModBlocks.SHTAIN_BLOCK);
                         entries.add(ModBlocks.RAW_SHTAIN_BLOCK);
+                        entries.add(ModBlocks.RAAQ_BLOCK);
 
                         entries.add(ModBlocks.SHTAIN_ORE);
                         entries.add(ModBlocks.DEEPSLATE_SHTAIN_ORE);
                         entries.add(ModBlocks.END_STONE_SHTAIN_ORE);
                         entries.add(ModBlocks.NETHER_SHTAIN_ORE);
+                        entries.add(ModBlocks.RAAQ_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RAAQ_ORE);
+                        entries.add(ModBlocks.END_STONE_RAAQ_ORE);
+                        entries.add(ModBlocks.NETHER_RAAQ_ORE);
 
                         entries.add(ModBlocks.SHTAIN_STAIRS);
                         entries.add(ModBlocks.SHTAIN_SLAB);
+                        entries.add(ModBlocks.RAAQ_STAIRS);
+                        entries.add(ModBlocks.RAAQ_SLAB);
 
                         entries.add(ModBlocks.SHTAIN_BUTTON);
                         entries.add(ModBlocks.SHTAIN_PRESSURE_PLATE);
@@ -39,6 +47,13 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SHTAIN_WALL);
                         entries.add(ModBlocks.SHTAIN_DOOR);
                         entries.add(ModBlocks.SHTAIN_TRAPDOOR);
+                        entries.add(ModBlocks.RAAQ_BUTTON);
+                        entries.add(ModBlocks.RAAQ_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAAQ_FENCE);
+                        entries.add(ModBlocks.RAAQ_FENCE_GATE);
+                        entries.add(ModBlocks.RAAQ_WALL);
+                        entries.add(ModBlocks.RAAQ_DOOR);
+                        entries.add(ModBlocks.RAAQ_TRAPDOOR);
 
                     }).build());
 

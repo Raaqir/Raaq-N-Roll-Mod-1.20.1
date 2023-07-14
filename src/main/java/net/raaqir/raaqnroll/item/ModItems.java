@@ -13,11 +13,17 @@ import net.raaqir.raaqnroll.block.ModBlocks;
 import net.raaqir.raaqnroll.item.custom.MetalDetectorItem;
 
 public class ModItems {
+
+    ///      ORES
     public static final Item SHTAIN = registerItem("shtain",
             new Item(new FabricItemSettings()));
     public static final Item RAW_SHTAIN = registerItem("raw_shtain",
             new Item(new FabricItemSettings()));
 
+    public static final Item RAAQ = registerItem("raaq",
+            new Item(new FabricItemSettings()));
+
+    ///      MISC ITEMS
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
 
@@ -27,6 +33,8 @@ public class ModItems {
     public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
 
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(RaaqNRollMod.MOD_ID, name), item);
     }
@@ -34,9 +42,11 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(SHTAIN);
         entries.add(RAW_SHTAIN);
+        entries.add(RAAQ);
 
         entries.add(ModBlocks.SHTAIN_BLOCK);
-        entries.add(ModBlocks.SHTAIN_BLOCK);
+        entries.add(ModBlocks.RAW_SHTAIN_BLOCK);
+        entries.add(ModBlocks.RAAQ_BLOCK);
     }
 
     public static void registerModItems() {

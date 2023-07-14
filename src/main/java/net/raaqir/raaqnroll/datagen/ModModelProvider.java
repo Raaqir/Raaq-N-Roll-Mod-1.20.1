@@ -15,30 +15,45 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool pinkGarnetTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SHTAIN_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool ShtainTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SHTAIN_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool RaaqTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RAAQ_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SHTAIN_BLOCK);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SHTAIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_SHTAIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_SHTAIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_SHTAIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAAQ_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RAAQ_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_RAAQ_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RAAQ_ORE);
 
-        pinkGarnetTexturePool.stairs(ModBlocks.SHTAIN_STAIRS);
-        pinkGarnetTexturePool.slab(ModBlocks.SHTAIN_SLAB);
-        pinkGarnetTexturePool.button(ModBlocks.SHTAIN_BUTTON);
-        pinkGarnetTexturePool.pressurePlate(ModBlocks.SHTAIN_PRESSURE_PLATE);
-        pinkGarnetTexturePool.fence(ModBlocks.SHTAIN_FENCE);
-        pinkGarnetTexturePool.fenceGate(ModBlocks.SHTAIN_FENCE_GATE);
-        pinkGarnetTexturePool.wall(ModBlocks.SHTAIN_WALL);
+        ShtainTexturePool.stairs(ModBlocks.SHTAIN_STAIRS);
+        ShtainTexturePool.slab(ModBlocks.SHTAIN_SLAB);
+        ShtainTexturePool.button(ModBlocks.SHTAIN_BUTTON);
+        ShtainTexturePool.pressurePlate(ModBlocks.SHTAIN_PRESSURE_PLATE);
+        ShtainTexturePool.fence(ModBlocks.SHTAIN_FENCE);
+        ShtainTexturePool.fenceGate(ModBlocks.SHTAIN_FENCE_GATE);
+        ShtainTexturePool.wall(ModBlocks.SHTAIN_WALL);
+        RaaqTexturePool.stairs(ModBlocks.RAAQ_STAIRS);
+        RaaqTexturePool.slab(ModBlocks.RAAQ_SLAB);
+        RaaqTexturePool.button(ModBlocks.RAAQ_BUTTON);
+        RaaqTexturePool.pressurePlate(ModBlocks.RAAQ_PRESSURE_PLATE);
+        RaaqTexturePool.fence(ModBlocks.RAAQ_FENCE);
+        RaaqTexturePool.fenceGate(ModBlocks.RAAQ_FENCE_GATE);
+        RaaqTexturePool.wall(ModBlocks.RAAQ_WALL);
 
         blockStateModelGenerator.registerDoor(ModBlocks.SHTAIN_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.SHTAIN_TRAPDOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAAQ_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAAQ_TRAPDOOR);
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SHTAIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAAQ, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_SHTAIN, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);

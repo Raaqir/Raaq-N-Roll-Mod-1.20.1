@@ -1,19 +1,23 @@
 {
   "item.raaqnroll.shtain": "Shtain",
   "item.raaqnroll.raw_shtain": "Raw Shtain",
+  "item.raaqnroll.raaq": "Raaq",
   "item.raaqnroll.metal_detector": "Metal Detector",
   "item.raaqnroll.cauliflower": "Cauliflower",
   "item.raaqnroll.peat_brick": "Peat Brick",
 
   "block.raaqnroll.shtain_block": "Block of Shtain",
   "block.raaqnroll.raw_shtain_block": "Block of Raw Shtain",
+  "block.raaqnroll.raaq_block": "Block of Raaq",
 
   "block.raaqnroll.shtain_ore": "Shtain Ore",
   "block.raaqnroll.deepslate_shtain_ore": "Deepslate Shtain Ore",
   "block.raaqnroll.nether_shtain_ore": "Nether Shtain Ore",
   "block.raaqnroll.end_stone_shtain_ore": "End Stone Shtain Ore",
-
-  "block.raaqnroll.sound_block": "Sound Block",
+  "block.raaqnroll.raaq_ore": "Raaq Ore",
+  "block.raaqnroll.deepslate_raaq_ore": "Deepslate Raaq Ore",
+  "block.raaqnroll.nether_raaq_ore": "Nether Raaq Ore",
+  "block.raaqnroll.end_stone_raaq_ore": "End Stone Raaq Ore",
 
   "block.raaqnroll.shtain_stairs": "Shtain Stairs",
   "block.raaqnroll.shtain_slab": "Shtain Slab",
@@ -24,6 +28,15 @@
   "block.raaqnroll.shtain_wall": "Shtain Wall",
   "block.raaqnroll.shtain_door": "Shtain Door",
   "block.raaqnroll.shtain_trapdoor": "Shtain Trapdoor",
+  "block.raaqnroll.raaq_stairs": "Raaq Stairs",
+  "block.raaqnroll.raaq_slab": "Raaq Slab",
+  "block.raaqnroll.raaq_button": "Raaq Button",
+  "block.raaqnroll.raaq_pressure_plate": "Raaq Pressure Plate",
+  "block.raaqnroll.raaq_fence": "Raaq Fence",
+  "block.raaqnroll.raaq_fence_gate": "Raaq Fence Gate",
+  "block.raaqnroll.raaq_wall": "Raaq Wall",
+  "block.raaqnroll.raaq_door": "Raaq Door",
+  "block.raaqnroll.raaq_trapdoor": "Raaq Trapdoor",
 
 
   "item.raaqnroll.metal_detector.no_valuables": "No Valuables Found!",
