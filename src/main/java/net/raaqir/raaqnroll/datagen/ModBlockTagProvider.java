@@ -3,8 +3,11 @@ package net.raaqir.raaqnroll.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
 import net.raaqir.raaqnroll.block.ModBlocks;
 import net.raaqir.raaqnroll.util.ModTags;
 
@@ -37,6 +40,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.DEEPSLATE_SHTAIN_ORE,
                         ModBlocks.END_STONE_SHTAIN_ORE,
                         ModBlocks.NETHER_SHTAIN_ORE,
+                        ModBlocks.DEEPSLATE_RAAQ_ORE,
+                        ModBlocks.END_STONE_RAAQ_ORE,
+                        ModBlocks.NETHER_RAAQ_ORE,
                         ModBlocks.SHTAIN_STAIRS,
                         ModBlocks.SHTAIN_SLAB,
                         ModBlocks.SHTAIN_PRESSURE_PLATE,
@@ -47,11 +53,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.SHTAIN_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.DEEPSLATE_SHTAIN_ORE,
-                        ModBlocks.RAAQ_BLOCK,
-                        ModBlocks.END_STONE_SHTAIN_ORE,
+                .add(ModBlocks.RAAQ_BLOCK,
                         ModBlocks.RAAQ_ORE,
-                        ModBlocks.NETHER_SHTAIN_ORE,
                         ModBlocks.DEEPSLATE_RAAQ_ORE,
                         ModBlocks.END_STONE_RAAQ_ORE,
                         ModBlocks.NETHER_RAAQ_ORE);
@@ -59,6 +62,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SHTAIN_ORE,
                         ModBlocks.SHTAIN_BLOCK,
+                        ModBlocks.DEEPSLATE_SHTAIN_ORE,
+                        ModBlocks.NETHER_SHTAIN_ORE,
+                        ModBlocks.END_STONE_SHTAIN_ORE,
                         ModBlocks.RAW_SHTAIN_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -74,6 +80,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAAQ_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.RAAQ_FENCE_GATE);
+
+        // Tag for Tool Material Netherite
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
+                .add(ModBlocks.NETHER_SHTAIN_ORE);
+
+        // Tag for our custom Tool Material (Pink Garnet)
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_5")))
+                .add(ModBlocks.DEEPSLATE_SHTAIN_ORE);
+
+
+        getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)
+                .forceAddTag(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(BlockTags.AXE_MINEABLE)
+                .forceAddTag(BlockTags.SHOVEL_MINEABLE);
+
 
     }
 }

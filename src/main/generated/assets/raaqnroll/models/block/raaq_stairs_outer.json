@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "raaqnroll:block/raaq_block",
+    "side": "raaqnroll:block/raaq_block",
+    "top": "raaqnroll:block/raaq_block"
+  }
+}

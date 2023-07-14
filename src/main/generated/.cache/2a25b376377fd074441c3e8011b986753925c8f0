@@ -1,8 +1,11 @@
-// 1.20.1	2023-07-13T21:25:30.603319	Raaq N Roll Mod/Tags for minecraft:block
-bcfd696238f00f7dbc2d5dfddd7f7083f7cecdb6 data\minecraft\tags\blocks\mineable\pickaxe.json
-67cfd9017e95cf13cea1c2f307f643595d1a3777 data\minecraft\tags\blocks\fences.json
-a9a6245401b90c6dd24c6e770c795f954ec05c6f data\minecraft\tags\blocks\needs_iron_tool.json
-e6e1e718c0dea98bf512674609ec35918e7841c9 data\minecraft\tags\blocks\needs_diamond_tool.json
-b34212b0397e4dee4f10be46d0be5dfb857396b4 data\minecraft\tags\blocks\walls.json
-ecf06efa30baf8dd30509773f666f93c65eadc13 data\minecraft\tags\blocks\fence_gates.json
-ad271c85271aca5a7c1fd0d2916fb2b172e5f0e4 data\raaqnroll\tags\blocks\metal_detector_detectable_blocks.json
+// 1.20.1	2023-07-14T01:38:48.8784401	Raaq N Roll Mod/Tags for minecraft:block
+c925380318b356b0571fb7088e9618536edc7e5d data\minecraft\tags\blocks\mineable\pickaxe.json
+4bba4e082ec15d7107b39f81044e7cc67455e282 data\minecraft\tags\blocks\fences.json
+16586482b80dadc8539df85723ee65cb5ac1b64f data\minecraft\tags\blocks\needs_iron_tool.json
+c51dc669524c017fb3759b71a14aac56f7b5500a data\fabric\tags\blocks\needs_tool_level_5.json
+c716880e6ff6532ef3f8279ddfa40285b01886f3 data\raaqnroll\tags\blocks\mineable\paxel.json
+8733ecb0d7a6e53c69a5afd203594a7d3d3f8656 data\minecraft\tags\blocks\needs_diamond_tool.json
+64058ecb3459c56cb2590730515a3b340f38506b data\minecraft\tags\blocks\walls.json
+c1bd7c6b76202f7e29862485d6087c5a5c663971 data\minecraft\tags\blocks\fence_gates.json
+91964900b725aeebafcf176e85dd90c269822281 data\raaqnroll\tags\blocks\metal_detector_detectable_blocks.json
+14e46048282e7f2b486b0999fb4871bb1adb18c2 data\fabric\tags\blocks\needs_tool_level_4.json

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "raaqnroll:block/raaq_pressure_plate"
+    },
+    "powered=true": {
+      "model": "raaqnroll:block/raaq_pressure_plate_down"
+    }
+  }
+}

@@ -3,6 +3,9 @@
   "values": [
     "raaqnroll:shtain_ore",
     "raaqnroll:shtain_block",
+    "raaqnroll:deepslate_shtain_ore",
+    "raaqnroll:nether_shtain_ore",
+    "raaqnroll:end_stone_shtain_ore",
     "raaqnroll:raw_shtain_block"
   ]
 }

@@ -22,6 +22,14 @@ public class ModItemGroup {
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.PEAT_BRICK);
 
+                        entries.add(ModItems.SHTAIN_SWORD);
+                        entries.add(ModItems.SHTAIN_PICKAXE);
+                        entries.add(ModItems.SHTAIN_SHOVEL);
+                        entries.add(ModItems.SHTAIN_AXE);
+                        entries.add(ModItems.SHTAIN_HOE);
+                        entries.add(ModItems.SHTAIN_PAXEL);
+
+
                         entries.add(ModBlocks.SHTAIN_BLOCK);
                         entries.add(ModBlocks.RAW_SHTAIN_BLOCK);
                         entries.add(ModBlocks.RAAQ_BLOCK);

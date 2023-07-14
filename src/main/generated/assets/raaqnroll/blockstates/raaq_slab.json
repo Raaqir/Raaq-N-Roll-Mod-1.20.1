@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "raaqnroll:block/raaq_slab"
+    },
+    "type=double": {
+      "model": "raaqnroll:block/raaq_block"
+    },
+    "type=top": {
+      "model": "raaqnroll:block/raaq_slab_top"
+    }
+  }
+}

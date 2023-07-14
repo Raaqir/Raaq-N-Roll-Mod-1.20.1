@@ -3,14 +3,14 @@ package net.raaqir.raaqnroll.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.raaqir.raaqnroll.RaaqNRollMod;
 import net.raaqir.raaqnroll.block.ModBlocks;
 import net.raaqir.raaqnroll.item.custom.MetalDetectorItem;
+import net.raaqir.raaqnroll.item.custom.PaxelItem;
 
 public class ModItems {
 
@@ -22,6 +22,26 @@ public class ModItems {
 
     public static final Item RAAQ = registerItem("raaq",
             new Item(new FabricItemSettings()));
+
+
+    ///      TOOLS
+
+
+    public static final Item SHTAIN_SWORD = registerItem("shtain_sword",
+            new SwordItem(ModToolMaterial.SHTAIN, 2, 2f, new FabricItemSettings()));
+    public static final Item SHTAIN_PICKAXE = registerItem("shtain_pickaxe",
+            new PickaxeItem(ModToolMaterial.SHTAIN, 1, 1f, new FabricItemSettings()));
+    public static final Item SHTAIN_SHOVEL = registerItem("shtain_shovel",
+            new ShovelItem(ModToolMaterial.SHTAIN, 0, 0f, new FabricItemSettings()));
+    public static final Item SHTAIN_AXE = registerItem("shtain_axe",
+            new AxeItem(ModToolMaterial.SHTAIN, 6, -2f, new FabricItemSettings()));
+    public static final Item SHTAIN_HOE = registerItem("shtain_hoe",
+            new HoeItem(ModToolMaterial.SHTAIN, 0, 0f, new FabricItemSettings()));
+
+    public static final Item SHTAIN_PAXEL = registerItem("shtain_paxel",
+            new PaxelItem(ModToolMaterial.SHTAIN, 0, 0f, new FabricItemSettings()));
+
+
 
     ///      MISC ITEMS
     public static final Item METAL_DETECTOR = registerItem("metal_detector",

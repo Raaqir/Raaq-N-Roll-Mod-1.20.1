@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
-    "raaqnroll:deepslate_shtain_ore",
-    "raaqnroll:end_stone_shtain_ore",
-    "raaqnroll:nether_shtain_ore"
+    "raaqnroll:raaq_block",
+    "raaqnroll:raaq_ore",
+    "raaqnroll:deepslate_raaq_ore",
+    "raaqnroll:end_stone_raaq_ore",
+    "raaqnroll:nether_raaq_ore"
   ]
 }

@@ -60,5 +60,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PEAT_BRICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.SHTAIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHTAIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHTAIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHTAIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHTAIN_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHTAIN_PAXEL, Models.HANDHELD);
+
+
     }
 }
