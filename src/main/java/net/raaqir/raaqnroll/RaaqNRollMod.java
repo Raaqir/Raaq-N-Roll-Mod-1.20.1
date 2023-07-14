@@ -3,6 +3,7 @@ package net.raaqir.raaqnroll;
 import net.fabricmc.api.ModInitializer;
 
 import net.raaqir.raaqnroll.block.ModBlocks;
+import net.raaqir.raaqnroll.enchantment.ModEnchantments;
 import net.raaqir.raaqnroll.item.ModItemGroup;
 import net.raaqir.raaqnroll.item.ModItems;
 import net.raaqir.raaqnroll.util.ModRegistries;
@@ -21,6 +22,7 @@ public class RaaqNRollMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
+		ModEnchantments.registerModEnchantments();
 
 
 	}

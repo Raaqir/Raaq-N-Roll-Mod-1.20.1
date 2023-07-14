@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.raaqir.raaqnroll.block.ModBlocks;
 import net.raaqir.raaqnroll.item.ModItems;
 
@@ -66,6 +67,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SHTAIN_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SHTAIN_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SHTAIN_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_BOOTS));
+
+        itemModelGenerator.register(ModItems.SHTAIN_HORSE_ARMOR, Models.GENERATED);
 
 
     }

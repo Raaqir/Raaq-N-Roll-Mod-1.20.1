@@ -29,6 +29,13 @@ public class ModItemGroup {
                         entries.add(ModItems.SHTAIN_HOE);
                         entries.add(ModItems.SHTAIN_PAXEL);
 
+                        entries.add(ModItems.SHTAIN_HELMET);
+                        entries.add(ModItems.SHTAIN_CHESTPLATE);
+                        entries.add(ModItems.SHTAIN_LEGGINGS);
+                        entries.add(ModItems.SHTAIN_BOOTS);
+
+                        entries.add(ModItems.SHTAIN_HORSE_ARMOR);
+
 
                         entries.add(ModBlocks.SHTAIN_BLOCK);
                         entries.add(ModBlocks.RAW_SHTAIN_BLOCK);

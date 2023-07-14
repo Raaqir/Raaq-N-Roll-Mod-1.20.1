@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-14T01:38:48.8834412	Raaq N Roll Mod/Block Loot Tables
+// 1.20.1	2023-07-14T02:40:09.4312361	Raaq N Roll Mod/Block Loot Tables
 617810959f0c419b1bd073713a4f03b1bec893bb data\raaqnroll\loot_tables\blocks\end_stone_shtain_ore.json
 d358b448007f48726fde99acf8a89f5c63af9410 data\raaqnroll\loot_tables\blocks\shtain_stairs.json
 a35f0a750df47e53a06894d5b241c75bf1c1ead2 data\raaqnroll\loot_tables\blocks\raaq_ore.json
@@ -14,8 +14,8 @@ ca047e6b74303289248d70c881e4002778b80f08 data\raaqnroll\loot_tables\blocks\raaq_
 58169fc02bbfb11e3ee01c779b7c0c6df007084e data\raaqnroll\loot_tables\blocks\raaq_fence_gate.json
 5b63bf977bc04eb5005ece55799fa01b801c7090 data\raaqnroll\loot_tables\blocks\deepslate_raaq_ore.json
 e8bcccc961c692596b7d7e779bb4a5d4911bc645 data\raaqnroll\loot_tables\blocks\raaq_stairs.json
-3d0753e517e9eda67fd41020214c3e4c0725c9b6 data\raaqnroll\loot_tables\blocks\shtain_ore.json
 c1e78ad2a2cf71600b19e40b2b70de71d2278492 data\raaqnroll\loot_tables\blocks\shtain_trapdoor.json
+3d0753e517e9eda67fd41020214c3e4c0725c9b6 data\raaqnroll\loot_tables\blocks\shtain_ore.json
 feaee0d6f35fd332b731a432b10b1f220634d324 data\raaqnroll\loot_tables\blocks\shtain_wall.json
 176b62ce586187e75c2cfefeeb954f956106bf91 data\raaqnroll\loot_tables\blocks\nether_shtain_ore.json
 4d654a9c789230139a9c9e6f997276d5c737198e data\raaqnroll\loot_tables\blocks\raaq_slab.json

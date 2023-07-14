@@ -10,6 +10,8 @@ import net.minecraft.util.Identifier;
 import net.raaqir.raaqnroll.RaaqNRollMod;
 import net.raaqir.raaqnroll.block.ModBlocks;
 import net.raaqir.raaqnroll.item.custom.MetalDetectorItem;
+import net.raaqir.raaqnroll.item.custom.ModArmorItem;
+import net.raaqir.raaqnroll.item.custom.ModPowerSwordItem;
 import net.raaqir.raaqnroll.item.custom.PaxelItem;
 
 public class ModItems {
@@ -28,7 +30,7 @@ public class ModItems {
 
 
     public static final Item SHTAIN_SWORD = registerItem("shtain_sword",
-            new SwordItem(ModToolMaterial.SHTAIN, 2, 2f, new FabricItemSettings()));
+            new ModPowerSwordItem(ModToolMaterial.SHTAIN, 2, 2f, new FabricItemSettings()));
     public static final Item SHTAIN_PICKAXE = registerItem("shtain_pickaxe",
             new PickaxeItem(ModToolMaterial.SHTAIN, 1, 1f, new FabricItemSettings()));
     public static final Item SHTAIN_SHOVEL = registerItem("shtain_shovel",
@@ -41,7 +43,19 @@ public class ModItems {
     public static final Item SHTAIN_PAXEL = registerItem("shtain_paxel",
             new PaxelItem(ModToolMaterial.SHTAIN, 0, 0f, new FabricItemSettings()));
 
+    ///      ARMOR
 
+    public static final Item SHTAIN_HELMET = registerItem("shtain_helmet",
+            new ModArmorItem(ModArmorMaterials.SHTAIN, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SHTAIN_CHESTPLATE = registerItem("shtain_chestplate",
+            new ModArmorItem(ModArmorMaterials.SHTAIN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SHTAIN_LEGGINGS = registerItem("shtain_leggings",
+            new ModArmorItem(ModArmorMaterials.SHTAIN, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SHTAIN_BOOTS = registerItem("shtain_boots",
+            new ModArmorItem(ModArmorMaterials.SHTAIN, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item SHTAIN_HORSE_ARMOR = registerItem("shtain_horse_armor",
+            new HorseArmorItem(14, "shtain", new FabricItemSettings()));
 
     ///      MISC ITEMS
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
