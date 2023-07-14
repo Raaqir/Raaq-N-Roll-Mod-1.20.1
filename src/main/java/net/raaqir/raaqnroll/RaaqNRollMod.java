@@ -2,6 +2,10 @@ package net.raaqir.raaqnroll;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.raaqir.raaqnroll.block.ModBlocks;
+import net.raaqir.raaqnroll.item.ModItemGroup;
+import net.raaqir.raaqnroll.item.ModItems;
+import net.raaqir.raaqnroll.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +15,13 @@ public class RaaqNRollMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//comment fuck
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroup.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
+
+
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "raaqnroll:block/end_stone_shtain_ore"
+  }
+}

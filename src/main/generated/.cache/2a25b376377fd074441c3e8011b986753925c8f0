@@ -1,0 +1,8 @@
+// 1.20.1	2023-07-13T21:25:30.603319	Raaq N Roll Mod/Tags for minecraft:block
+bcfd696238f00f7dbc2d5dfddd7f7083f7cecdb6 data\minecraft\tags\blocks\mineable\pickaxe.json
+67cfd9017e95cf13cea1c2f307f643595d1a3777 data\minecraft\tags\blocks\fences.json
+a9a6245401b90c6dd24c6e770c795f954ec05c6f data\minecraft\tags\blocks\needs_iron_tool.json
+e6e1e718c0dea98bf512674609ec35918e7841c9 data\minecraft\tags\blocks\needs_diamond_tool.json
+b34212b0397e4dee4f10be46d0be5dfb857396b4 data\minecraft\tags\blocks\walls.json
+ecf06efa30baf8dd30509773f666f93c65eadc13 data\minecraft\tags\blocks\fence_gates.json
+ad271c85271aca5a7c1fd0d2916fb2b172e5f0e4 data\raaqnroll\tags\blocks\metal_detector_detectable_blocks.json

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "raaqnroll:block/shtain_pressure_plate"
+    },
+    "powered=true": {
+      "model": "raaqnroll:block/shtain_pressure_plate_down"
+    }
+  }
+}

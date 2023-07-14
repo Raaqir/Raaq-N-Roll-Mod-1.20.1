@@ -1,0 +1,36 @@
+{
+  "item.raaqnroll.shtain": "Shtain",
+  "item.raaqnroll.raw_shtain": "Raw Shtain",
+  "item.raaqnroll.metal_detector": "Metal Detector",
+  "item.raaqnroll.cauliflower": "Cauliflower",
+  "item.raaqnroll.peat_brick": "Peat Brick",
+
+  "block.raaqnroll.shtain_block": "Block of Shtain",
+  "block.raaqnroll.raw_shtain_block": "Block of Raw Shtain",
+
+  "block.raaqnroll.shtain_ore": "Shtain Ore",
+  "block.raaqnroll.deepslate_shtain_ore": "Deepslate Shtain Ore",
+  "block.raaqnroll.nether_shtain_ore": "Nether Shtain Ore",
+  "block.raaqnroll.end_stone_shtain_ore": "End Stone Shtain Ore",
+
+  "block.raaqnroll.sound_block": "Sound Block",
+
+  "block.raaqnroll.shtain_stairs": "Shtain Stairs",
+  "block.raaqnroll.shtain_slab": "Shtain Slab",
+  "block.raaqnroll.shtain_button": "Shtain Button",
+  "block.raaqnroll.shtain_pressure_plate": "Shtain Pressure Plate",
+  "block.raaqnroll.shtain_fence": "Shtain Fence",
+  "block.raaqnroll.shtain_fence_gate": "Shtain Fence Gate",
+  "block.raaqnroll.shtain_wall": "Shtain Wall",
+  "block.raaqnroll.shtain_door": "Shtain Door",
+  "block.raaqnroll.shtain_trapdoor": "Shtain Trapdoor",
+
+
+  "item.raaqnroll.metal_detector.no_valuables": "No Valuables Found!",
+
+  "itemgroup.shtain_group": "Shtain Course Group",
+
+  "tooltip.raaqnroll.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
+  "tooltip.raaqnroll.metal_detector.tooltip": "Press §eSHIFT§r for more Information",
+  "tooltip.raaqnroll.sound_block": "Plays a nice sound when Walking on, or being Right-Clicked"
+}

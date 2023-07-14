@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "raaqnroll:shtain_ore",
+    "raaqnroll:shtain_block",
+    "raaqnroll:raw_shtain_block",
+    "raaqnroll:deepslate_shtain_ore",
+    "raaqnroll:end_stone_shtain_ore",
+    "raaqnroll:nether_shtain_ore",
+    "raaqnroll:shtain_stairs",
+    "raaqnroll:shtain_slab",
+    "raaqnroll:shtain_pressure_plate",
+    "raaqnroll:shtain_fence",
+    "raaqnroll:shtain_fence_gate",
+    "raaqnroll:shtain_wall",
+    "raaqnroll:shtain_door",
+    "raaqnroll:shtain_trapdoor"
+  ]
+}
