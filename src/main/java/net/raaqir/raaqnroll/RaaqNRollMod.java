@@ -11,7 +11,7 @@ public class RaaqNRollMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		
+		//comment fuck
 		LOGGER.info("Hello Fabric world!");
 	}
 }
