@@ -68,12 +68,26 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SHTAIN_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SHTAIN_PAXEL, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.RAAQ_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAAQ_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAAQ_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAAQ_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAAQ_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAAQ_PAXEL, Models.HANDHELD);
+
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHTAIN_BOOTS));
 
         itemModelGenerator.register(ModItems.SHTAIN_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RAAQ_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RAAQ_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RAAQ_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RAAQ_BOOTS));
+
+        itemModelGenerator.register(ModItems.RAAQ_HORSE_ARMOR, Models.GENERATED);
 
 
     }

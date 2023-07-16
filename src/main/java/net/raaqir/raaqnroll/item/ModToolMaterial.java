@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     SHTAIN(5, 1500, 11.0f, 5.0f, 28, () -> Ingredient.ofItems(ModItems.SHTAIN)),
-    RAAQ(5, 1500, 11.0f, 5.0f, 28, () -> Ingredient.ofItems(ModItems.RAAQ));
+    RAAQ(5, 2500, 13.0f, 7.0f, 38, () -> Ingredient.ofItems(ModItems.RAAQ));
 
     private final int miningLevel;
     private final int itemDurability;

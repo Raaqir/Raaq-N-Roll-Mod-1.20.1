@@ -13,11 +13,23 @@
   "item.raaqnroll.shtain_pickaxe": "Shtain Pickaxe",
   "item.raaqnroll.shtain_paxel": "Shtain Paxel",
 
+  "item.raaqnroll.raaq_sword": "Raaq Sword",
+  "item.raaqnroll.raaq_shovel": "Raaq Shovel",
+  "item.raaqnroll.raaq_hoe": "Raaq Hoe",
+  "item.raaqnroll.raaq_axe": "Raaq Axe",
+  "item.raaqnroll.raaq_pickaxe": "Raaq Pickaxe",
+  "item.raaqnroll.raaq_paxel": "Raaq Paxel",
+
   "item.raaqnroll.shtain_helmet": "Shtain Helmet",
   "item.raaqnroll.shtain_chestplate": "Shtain Chestplate",
   "item.raaqnroll.shtain_leggings": "Shtain Leggings",
   "item.raaqnroll.shtain_boots": "Shtain Boots",
   "item.raaqnroll.shtain_horse_armor": "Shtain Horse Armor",
+  "item.raaqnroll.raaq_helmet": "Raaq Helmet",
+  "item.raaqnroll.raaq_chestplate": "Raaq Chestplate",
+  "item.raaqnroll.raaq_leggings": "Raaq Leggings",
+  "item.raaqnroll.raaq_boots": "Raaq Boots",
+  "item.raaqnroll.raaq_horse_armor": "Raaq Horse Armor",
 
   "block.raaqnroll.shtain_block": "Block of Shtain",
   "block.raaqnroll.raw_shtain_block": "Block of Raw Shtain",

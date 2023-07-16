@@ -37,10 +37,10 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerSmelting(exporter, List.of(ModItems.RAW_SHTAIN, ModBlocks.SHTAIN_ORE, ModBlocks.DEEPSLATE_SHTAIN_ORE,
                         ModBlocks.NETHER_SHTAIN_ORE, ModBlocks.END_STONE_SHTAIN_ORE), RecipeCategory.MISC, ModItems.SHTAIN,
-                0.25f, 200, "pink_garnet");
+                0.25f, 200, "shtain");
         offerBlasting(exporter, List.of(ModItems.RAW_SHTAIN, ModBlocks.SHTAIN_ORE, ModBlocks.DEEPSLATE_SHTAIN_ORE,
                         ModBlocks.NETHER_SHTAIN_ORE, ModBlocks.END_STONE_SHTAIN_ORE), RecipeCategory.MISC, ModItems.SHTAIN,
-                0.25f, 200, "pink_garnet");
+                0.25f, 200, "shtain");
 
         //                  RAAQ RECIPES
 
@@ -48,9 +48,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerSmelting(exporter, List.of(ModItems.RAAQ, ModBlocks.RAAQ_ORE, ModBlocks.DEEPSLATE_RAAQ_ORE,
                         ModBlocks.NETHER_RAAQ_ORE, ModBlocks.END_STONE_RAAQ_ORE), RecipeCategory.MISC, ModItems.RAAQ,
-                0.25f, 200, "pink_garnet");
+                0.25f, 200, "raaq");
         offerBlasting(exporter, List.of(ModItems.RAAQ, ModBlocks.RAAQ_ORE, ModBlocks.DEEPSLATE_RAAQ_ORE,
                         ModBlocks.NETHER_RAAQ_ORE, ModBlocks.END_STONE_RAAQ_ORE), RecipeCategory.MISC, ModItems.RAAQ,
-                0.25f, 200, "pink_garnet");
+                0.25f, 200, "raaq");
     }
 }

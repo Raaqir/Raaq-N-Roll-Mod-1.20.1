@@ -43,6 +43,21 @@ public class ModItems {
     public static final Item SHTAIN_PAXEL = registerItem("shtain_paxel",
             new PaxelItem(ModToolMaterial.SHTAIN, 0, 0f, new FabricItemSettings()));
 
+
+    public static final Item RAAQ_SWORD = registerItem("raaq_sword",
+            new SwordItem(ModToolMaterial.RAAQ, 2, 2f, new FabricItemSettings()));
+    public static final Item RAAQ_PICKAXE = registerItem("raaq_pickaxe",
+            new PickaxeItem(ModToolMaterial.RAAQ, 1, 1f, new FabricItemSettings()));
+    public static final Item RAAQ_SHOVEL = registerItem("raaq_shovel",
+            new ShovelItem(ModToolMaterial.RAAQ, 0, 0f, new FabricItemSettings()));
+    public static final Item RAAQ_AXE = registerItem("raaq_axe",
+            new AxeItem(ModToolMaterial.RAAQ, 6, -2f, new FabricItemSettings()));
+    public static final Item RAAQ_HOE = registerItem("raaq_hoe",
+            new HoeItem(ModToolMaterial.RAAQ, 0, 0f, new FabricItemSettings()));
+
+    public static final Item RAAQ_PAXEL = registerItem("raaq_paxel",
+            new PaxelItem(ModToolMaterial.RAAQ, 0, 0f, new FabricItemSettings()));
+
     ///      ARMOR
 
     public static final Item SHTAIN_HELMET = registerItem("shtain_helmet",
@@ -56,6 +71,18 @@ public class ModItems {
 
     public static final Item SHTAIN_HORSE_ARMOR = registerItem("shtain_horse_armor",
             new HorseArmorItem(14, "shtain", new FabricItemSettings()));
+
+    public static final Item RAAQ_HELMET = registerItem("raaq_helmet",
+            new ModArmorItem(ModArmorMaterials.RAAQ, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RAAQ_CHESTPLATE = registerItem("raaq_chestplate",
+            new ModArmorItem(ModArmorMaterials.RAAQ, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RAAQ_LEGGINGS = registerItem("raaq_leggings",
+            new ModArmorItem(ModArmorMaterials.RAAQ, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RAAQ_BOOTS = registerItem("raaq_boots",
+            new ModArmorItem(ModArmorMaterials.RAAQ, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item RAAQ_HORSE_ARMOR = registerItem("raaq_horse_armor",
+            new HorseArmorItem(14, "raaq", new FabricItemSettings()));
 
     ///      MISC ITEMS
     public static final Item METAL_DETECTOR = registerItem("metal_detector",

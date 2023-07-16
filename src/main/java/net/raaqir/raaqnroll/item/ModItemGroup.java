@@ -17,7 +17,6 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.SHTAIN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SHTAIN);
                         entries.add(ModItems.RAW_SHTAIN);
-                        entries.add(ModItems.RAAQ);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.PEAT_BRICK);
@@ -39,21 +38,13 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.SHTAIN_BLOCK);
                         entries.add(ModBlocks.RAW_SHTAIN_BLOCK);
-                        entries.add(ModBlocks.RAAQ_BLOCK);
 
                         entries.add(ModBlocks.SHTAIN_ORE);
                         entries.add(ModBlocks.DEEPSLATE_SHTAIN_ORE);
                         entries.add(ModBlocks.END_STONE_SHTAIN_ORE);
                         entries.add(ModBlocks.NETHER_SHTAIN_ORE);
-                        entries.add(ModBlocks.RAAQ_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_RAAQ_ORE);
-                        entries.add(ModBlocks.END_STONE_RAAQ_ORE);
-                        entries.add(ModBlocks.NETHER_RAAQ_ORE);
-
                         entries.add(ModBlocks.SHTAIN_STAIRS);
                         entries.add(ModBlocks.SHTAIN_SLAB);
-                        entries.add(ModBlocks.RAAQ_STAIRS);
-                        entries.add(ModBlocks.RAAQ_SLAB);
 
                         entries.add(ModBlocks.SHTAIN_BUTTON);
                         entries.add(ModBlocks.SHTAIN_PRESSURE_PLATE);
@@ -62,6 +53,39 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SHTAIN_WALL);
                         entries.add(ModBlocks.SHTAIN_DOOR);
                         entries.add(ModBlocks.SHTAIN_TRAPDOOR);
+
+                    }).build());
+
+    public static final ItemGroup RAAQ_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RaaqNRollMod.MOD_ID, "raaq_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.raaq_group"))
+                    .icon(() -> new ItemStack(ModItems.RAAQ)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAAQ);
+
+                        entries.add(ModItems.RAAQ_SWORD);
+                        entries.add(ModItems.RAAQ_PICKAXE);
+                        entries.add(ModItems.RAAQ_SHOVEL);
+                        entries.add(ModItems.RAAQ_AXE);
+                        entries.add(ModItems.RAAQ_HOE);
+                        entries.add(ModItems.RAAQ_PAXEL);
+
+                        entries.add(ModItems.RAAQ_HELMET);
+                        entries.add(ModItems.RAAQ_CHESTPLATE);
+                        entries.add(ModItems.RAAQ_LEGGINGS);
+                        entries.add(ModItems.RAAQ_BOOTS);
+
+                        entries.add(ModItems.RAAQ_HORSE_ARMOR);
+
+                        entries.add(ModBlocks.RAAQ_BLOCK);
+
+                        entries.add(ModBlocks.RAAQ_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RAAQ_ORE);
+                        entries.add(ModBlocks.END_STONE_RAAQ_ORE);
+                        entries.add(ModBlocks.NETHER_RAAQ_ORE);
+
+                        entries.add(ModBlocks.RAAQ_STAIRS);
+                        entries.add(ModBlocks.RAAQ_SLAB);
+
                         entries.add(ModBlocks.RAAQ_BUTTON);
                         entries.add(ModBlocks.RAAQ_PRESSURE_PLATE);
                         entries.add(ModBlocks.RAAQ_FENCE);
